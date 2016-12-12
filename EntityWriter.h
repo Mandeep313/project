@@ -25,7 +25,7 @@ public:
     void Text(double Height, double Width, string s, double x, double y, string layer, double color);
     void Arc(double x, double y, double radius, double staangle, double endangle, string layer, double color);
     void Trace(double a, double b, double c, double d, double e, double f, string layer, double color);
-    void square(double a, double b, double c, double d, double e, double f,double g,double h, string layer, double color);
+  // void square(double a, double b, double c, double d, double e, double f,double g,double h, string layer, double color);
     void square(double a, double b, double c, double d, string layer, double color);
 
     virtual void addHeader(const DRW_Header *data) override {
